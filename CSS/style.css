@@ -39,8 +39,8 @@ body {
 }
 
 .boxl {
-    background: linear-gradient(to left, #7351b7, #538ccf, #22e088);
-    background-size: 400% 100%;
+    background: linear-gradient(-45deg, #7351b7, #538ccf, #22e088);
+    background-size: 100% 100%;    /*Troca apenas o primeiro 100% para 400%*/
     color: white;
     padding: 12px 30px;
     border-radius: 10px;
