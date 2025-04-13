@@ -1,14 +1,27 @@
-body{
-margin: 0;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: white;
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
 
 .container {
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -16,24 +29,25 @@ color: white;
 
 .box {
     background-color: rgb(247, 246, 246);
-    color: rgb(198, 198, 198);
     text-align: left;
     padding-left: 2px;
     border-radius: 8px;
     font-size: 12px;
     width: 250px;
+    height: 30px;
     border: 1px solid rgb(228, 227, 227);
 }
 
-.boxL {
+.boxl {
     background: linear-gradient(to left, #7351b7, #538ccf, #22e088);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border-radius: 8px;
-    font-size: 12px;
-    width: 100px;
-    border: 1px solid rgb(227, 227, 228);
-    margin: auto;
+    background-size: 400% 100%;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    animation: gradient-animation 3.5s linear infinite;
 }
 
 .logo {
