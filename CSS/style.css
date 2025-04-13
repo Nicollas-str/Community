@@ -1,0 +1,51 @@
+body{
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(247, 246, 246);
+    color: rgb(198, 198, 198);
+    text-align: left;
+    padding-left: 2px;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 250px;
+    border: 1px solid rgb(228, 227, 227);
+}
+
+.boxL {
+    background: linear-gradient(to left, #7351b7, #538ccf, #22e088);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 100px;
+    border: 1px solid rgb(227, 227, 228);
+    margin: auto;
+}
+
+.logo {
+    max-width: 180px;
+    height: auto;
+}
+
+section {
+    text-align: center;
+}
+
+.newpassword {
+    color: white;
+    text-decoration: none;
+}
