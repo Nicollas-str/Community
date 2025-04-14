@@ -18,7 +18,7 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-    font-family: sans-serif, 'Segoe UI';
+    font-family: sans-serif, "Segoe UI";
 }
 
 .container {
@@ -41,14 +41,14 @@ body {
 
 .boxl {
     background: linear-gradient(-45deg, #7351b7, #538ccf, #22e088);
-    background-size: 100% 100%;    /*Troca apenas o primeiro 100% para 400%*/
+    background-size: 400% 100%;
     color: white;
     padding: 12px 30px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    animation: gradient-animation 3.5s linear infinite;
+    animation: gradient-animation 4s linear infinite;
 }
 
 .logo {
